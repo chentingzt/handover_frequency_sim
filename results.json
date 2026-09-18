@@ -1,0 +1,44 @@
+{
+  "constellation": {
+    "n_planes": 72,
+    "sats_per_plane": 70,
+    "total": 5040,
+    "altitude_km": 550.0,
+    "inclination_deg": 53.0,
+    "phase_factor": 1
+  },
+  "terminal": {
+    "lat_deg": 20.0,
+    "lon_deg": 120.0,
+    "speed_kn": 15.0
+  },
+  "min_elevation_deg": 15.0,
+  "duration_hours": 12.0,
+  "dt_s": 2.0,
+  "necessary": {
+    "rate_per_hour": 9.1667,
+    "window_mean_min": 6.5127,
+    "n_handovers": 110
+  },
+  "reactive": {
+    "rate_per_hour": 18.9167,
+    "window_mean_min": 3.1673,
+    "n_handovers": 227
+  },
+  "unnecessary_handover_pct_inputs": {
+    "RSS-Threshold": 23.4,
+    "Graph-Dijkstra": 15.1,
+    "CNN-LSTM [7]": 11.6,
+    "MADRL-Std [6]": 8.3,
+    "Grid-Only": 6.7,
+    "GAP-MOH": 4.1
+  },
+  "handover_frequency_by_scheme": {
+    "RSS-Threshold": 11.9669,
+    "Graph-Dijkstra": 10.797,
+    "CNN-LSTM [7]": 10.3695,
+    "MADRL-Std [6]": 9.9964,
+    "Grid-Only": 9.8249,
+    "GAP-MOH": 9.5586
+  }
+}
